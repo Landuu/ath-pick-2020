@@ -1,0 +1,95 @@
+.text-right {
+    color: black;
+    text-align: right;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.modal-dialog {
+    max-width: 600px !important;
+}
+
+.modalSwitch, .modalDebugData {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+.modalSwitch:hover, .modalDebugData:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.list-group-item-icon {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.list-group-item-icon:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.list-group-item-custom {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.undraw-empty-cart {
+    max-width: 300px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+#medNutrions {
+    list-style: none;
+}
+
+#medNutrions li {
+    text-transform: capitalize;
+}
+
+.li-dot-red:before {
+    content: "\2022";
+    color: red;
+    font-size: 1.2rem;
+    
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.li-dot-yellow:before {
+    content: "\2022";
+    color: #ffbb00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.li-dot-green:before {
+    content: "\2022";
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
